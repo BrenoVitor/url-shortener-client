@@ -19,7 +19,7 @@ const router = new VueRouter({ routes, mode: 'history' });
 
 Vue.config.productionTip = false;
 
-Vue.http.options.root = 'http://192.168.0.17:8080';
+Vue.http.options.root = 'https://urlshortenerapi.com.br';
 
 Vue.component('ValidationObserver', ValidationObserver);
 Vue.component('ValidationProvider', ValidationProvider);
