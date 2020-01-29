@@ -1,0 +1,13 @@
+<template>
+  <div class="form-group">
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "FromGroup"
+};
+</script>
+
+<style scoped></style>
